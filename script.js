@@ -26,10 +26,16 @@ const playRound = (playerSelection, computerSelection) => {
 const game = () => {
   const playerSelection = userChoise;
   const computerSelection = getComputerChoice();
-  console.log(playRound(playerSelection, computerSelection));
-  console.log(playRound(playerSelection, computerSelection));
-  console.log(playRound(playerSelection, computerSelection));
-  console.log(playRound(playerSelection, computerSelection));
-  console.log(playRound(playerSelection, computerSelection));
+
+  for(let i=0;i<=5;i++){
+    console.log(playRound(playerSelection, computerSelection));
+
+  }
+  
+  // console.log(playRound(playerSelection, computerSelection));
+  // console.log(playRound(playerSelection, computerSelection));
+  // console.log(playRound(playerSelection, computerSelection));
+  // console.log(playRound(playerSelection, computerSelection));
 };
 game();
+
